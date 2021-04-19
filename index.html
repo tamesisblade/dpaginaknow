@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Fuente CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+  
+
+  <!-- Button trigger modal -->
+
+  <header>
+    <div class="contenedor">
+
+      <div class="thumb">
+         <img src="img/inicio/logo.png" width="180" alt="">
+      </div>
+
+      <nav class="menu">
+        <a href="" class="idioma" >
+        Espanol
+        <i class="fa fa-angle-down" aria-hidden="true"></i>
+
+         </a>
+        <a href="" class="link">Nosotros</a>
+        <a href="" class="link">Contacto</a>
+
+        <a href="#" class="facebook">
+          <i class="fa fa-facebook red-social"></i>
+        </a>
+        <a href="#" class="twitter red-social">
+          <i class="fa fa-twitter red-social"></i>
+        </a>
+         <a href="#" class="instagram red-social">
+          <i class="fa fa-instagram"></i>
+        </a>
+      </nav>
+
+    </div>
+  
+  </header>
+
+  <section class="main">
+    
+
+    <div class="container">
+       <div class="row contenido">
+         <div class="col-lg-6 contenido-left">
+            <div class="contenido-texto">
+              <p class="titulo">
+               Bienvenido al mejor sitio para conocer personas!
+              </p>
+              <p style="color:white;font-size: 14px;">
+                Si aun no tienes una cuenta puedes registrarte gratis
+              </p>
+            </div>
+
+            <div>
+              <button class="boton-registrar" data-toggle="modal" data-target="#exampleModal">Registrarme</button>
+            </div>
+          
+
+         </div>
+          <div class="col-lg-6 contenido-rigth">
+            <h5 class="text-center mt-4 text-primary">Iniciar sesion</h5>
+             <div class="redes-sociales">
+               <p class="facebook">
+                   <i class="fa fa-facebook"></i>
+                </p>
+                <p class="google">
+                   <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+
+                </p>
+             </div>
+             <div class="contacto mt-4">
+               <form>
+                  <div class="form-group">
+                  
+                    <input type="email" class="form-control input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                
+                  </div>
+                  <div class="form-group">
+                   
+                    <input type="password" class="form-control input" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <div class="row justify-content-center">
+                       <button type="submit" class="boton-submit" >Iniciar sesion</button>
+                  </div>
+                 
+                </form>
+             </div>
+          </div>
+       </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="contenedor">
+     <hr width=100% style="background-color: #ccc;">
+      <div class="footer-texto">
+        <div>Preguntas Frecuentes</div>
+        <div>Contacto</div>
+        <div>Condiciones</div>
+        <div>Politica de privacidad</div>
+        <div>Trabaja con nosotros</div>
+        <div>Invierte en Woobox</p></div>
+        <div>2021 woobox</div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><img src="img/inicio/logo.png" class="img-fluid" width="80"><span class="ml-3">Crear Cuenta</span></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         <div class="l-form">
+           
+               
+
+          <form class="form">
+            <div class="form__div">
+                    <input type="text" class="form__input" placeholder=" ">
+                    <label for="" class="form__label">Nombre</label>
+            </div>
+
+            <div class="form__div">
+                    <input type="text" class="form__input" placeholder=" ">
+                    <label for="" class="form__label">Apellido</label>
+            </div>
+            
+
+            <div class="form__div2">
+                    <input type="email" class="form__input" placeholder=" ">
+                    <label for="" class="form__label">Correo</label>
+            </div>
+
+             <div class="form__div2 mt-2">
+                    <input type="password" class="form__input" placeholder=" ">
+                    <label for="" class="form__label">Password</label>
+            </div>
+          
+            
+
+            <div class="form-group form__div2">
+              <label for="exampleInputEmail1" class="font-weight-bold">Fecha de nacimiento</label>
+              <p style="font-size:12px;">Recuerda que debes tener mas de 18 años para registrate</p>
+              <div class="selects">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <select class="form-control">
+                      <option>Mes</option>
+                    </select>
+
+                  </div>
+                  <div class="col-lg-4">
+                    <select class="form-control">
+                      <option>Dia</option>
+                    </select>
+
+                  </div>
+
+                  <div class="col-lg-4">
+                    <select class="form-control">
+                      <option>año</option>
+                    </select>
+
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+
+           
+            <div class="form-check mt-3">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1" style="font-size: 11px;">Confirmo que he leido y estoy de acuerdo con las condiciones y politicas de la pagina</label>
+            </div>
+
+          
+         
+        </form>
+
+                
+            
+        </div>
+
+
+
+
+
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn btn-primary">Registrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
